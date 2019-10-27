@@ -1,7 +1,7 @@
 #include <string>
 
 #include "format.h"
-/*I'm Heeeeeeeeeeeeeeeeeeeeeeeeeere*/
+
 using std::string;
 
 // TODO: Complete this helper function

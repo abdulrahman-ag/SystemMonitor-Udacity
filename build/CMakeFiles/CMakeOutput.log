@@ -1,8 +1,8 @@
-The system is: Linux - 4.15.0-1029-gcp - x86_64
+The system is: Linux - 4.15.0-1030-gcp - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /opt/conda/bin/cc 
+Compiler: /usr/bin/cc 
 Build flags: 
-Id flags: 
+Id flags:  
 
 The output was:
 0
@@ -10,12 +10,12 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/workspace/CppND-System-Monitor/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/workspace/CppND-System-Monitor/build/CMakeFiles/3.13.0-rc2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /opt/conda/bin/c++ 
-Build flags: 
-Id flags: 
+Compiler: /usr/bin/g++-7 
+Build flags: -std=c++17
+Id flags:  
 
 The output was:
 0
@@ -23,20 +23,20 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/workspace/CppND-System-Monitor/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/workspace/CppND-System-Monitor/build/CMakeFiles/3.13.0-rc2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_45289/fast"
+Run Build Command:"/usr/bin/make" "cmTC_a8531/fast"
 make[1]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_45289.dir/build.make CMakeFiles/cmTC_45289.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_a8531.dir/build.make CMakeFiles/cmTC_a8531.dir/build
 make[2]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_45289.dir/testCCompiler.c.o
-/opt/conda/bin/cc     -o CMakeFiles/cmTC_45289.dir/testCCompiler.c.o   -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_45289
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45289.dir/link.txt --verbose=1
-/opt/conda/bin/cc       CMakeFiles/cmTC_45289.dir/testCCompiler.c.o  -o cmTC_45289 -rdynamic 
+Building C object CMakeFiles/cmTC_a8531.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a8531.dir/testCCompiler.c.o   -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a8531
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8531.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a8531.dir/testCCompiler.c.o  -o cmTC_a8531 
 make[2]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 
@@ -44,92 +44,89 @@ make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFile
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_367f8/fast"
+Run Build Command:"/usr/bin/make" "cmTC_5d341/fast"
 make[1]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_367f8.dir/build.make CMakeFiles/cmTC_367f8.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_5d341.dir/build.make CMakeFiles/cmTC_5d341.dir/build
 make[2]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_367f8.dir/CMakeCCompilerABI.c.o
-/opt/conda/bin/cc     -o CMakeFiles/cmTC_367f8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_367f8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_367f8.dir/link.txt --verbose=1
-/opt/conda/bin/cc      -v CMakeFiles/cmTC_367f8.dir/CMakeCCompilerABI.c.o  -o cmTC_367f8 -rdynamic  
-Reading specs from /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/specs
-COLLECT_GCC=/opt/conda/bin/cc
-COLLECT_LTO_WRAPPER=/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/lto-wrapper
-Target: x86_64-pc-linux-gnu
-Configured with: ./configure --prefix=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/gcc --with-gxx-include-dir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/gcc/include/c++ --bindir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin --datarootdir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/share --libdir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib --with-gmp=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-mpfr=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-mpc=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-isl=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-cloog=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --enable-checking=release --with-tune=generic --disable-multilib
+Building C object CMakeFiles/cmTC_5d341.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5d341.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_5d341
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d341.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_5d341.dir/CMakeCCompilerABI.c.o  -o cmTC_5d341 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.2.0 (GCC) 
-COMPILER_PATH=/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/:/opt/conda/bin/../gcc/libexec/gcc/
-LIBRARY_PATH=/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/:/opt/conda/bin/../lib/gcc/:/lib/../lib64/:/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_367f8' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/collect2 -plugin /opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccE5ka2i.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_367f8 /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crt1.o /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crti.o /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbegin.o -L/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/opt/conda/bin/../lib/gcc -L/lib/../lib64 -L/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -L/usr/local/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib64 -L/lib64 -L/usr/lib64 -L/usr/local/lib -L/lib -L/usr/lib -L/usr/x86_64-linux-gnu/lib64 -L/usr/x86_64-linux-gnu/lib CMakeFiles/cmTC_367f8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtend.o /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_367f8' '-rdynamic' '-mtune=generic' '-march=x86-64'
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5d341' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgENzXs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5d341 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5d341.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[2]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_367f8/fast"]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5d341/fast"]
   ignore line: [make[1]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_367f8.dir/build.make CMakeFiles/cmTC_367f8.dir/build]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5d341.dir/build.make CMakeFiles/cmTC_5d341.dir/build]
   ignore line: [make[2]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_367f8.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/opt/conda/bin/cc     -o CMakeFiles/cmTC_367f8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_367f8]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_367f8.dir/link.txt --verbose=1]
-  ignore line: [/opt/conda/bin/cc      -v CMakeFiles/cmTC_367f8.dir/CMakeCCompilerABI.c.o  -o cmTC_367f8 -rdynamic  ]
-  ignore line: [Reading specs from /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/specs]
-  ignore line: [COLLECT_GCC=/opt/conda/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/lto-wrapper]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Configured with: ./configure --prefix=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/gcc --with-gxx-include-dir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/gcc/include/c++ --bindir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin --datarootdir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/share --libdir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib --with-gmp=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-mpfr=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-mpc=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-isl=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-cloog=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --enable-checking=release --with-tune=generic --disable-multilib]
+  ignore line: [Building C object CMakeFiles/cmTC_5d341.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_5d341.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_5d341]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d341.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_5d341.dir/CMakeCCompilerABI.c.o  -o cmTC_5d341 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.2.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/:/opt/conda/bin/../gcc/libexec/gcc/]
-  ignore line: [LIBRARY_PATH=/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/:/opt/conda/bin/../lib/gcc/:/lib/../lib64/:/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_367f8' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/collect2 -plugin /opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccE5ka2i.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_367f8 /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crt1.o /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crti.o /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbegin.o -L/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/opt/conda/bin/../lib/gcc -L/lib/../lib64 -L/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -L/usr/local/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib64 -L/lib64 -L/usr/lib64 -L/usr/local/lib -L/lib -L/usr/lib -L/usr/x86_64-linux-gnu/lib64 -L/usr/x86_64-linux-gnu/lib CMakeFiles/cmTC_367f8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtend.o /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtn.o]
-    arg [/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/collect2] ==> ignore
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5d341' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgENzXs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5d341 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5d341.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccE5ka2i.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccgENzXs.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_367f8] ==> ignore
-    arg [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crt1.o] ==> ignore
-    arg [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crti.o] ==> ignore
-    arg [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbegin.o] ==> ignore
-    arg [-L/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0] ==> dir [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0]
-    arg [-L/opt/conda/bin/../lib/gcc] ==> dir [/opt/conda/bin/../lib/gcc]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../..] ==> dir [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../..]
-    arg [-L/usr/local/lib/x86_64-linux-gnu] ==> dir [/usr/local/lib/x86_64-linux-gnu]
+    arg [cmTC_5d341] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
     arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/local/lib64] ==> dir [/usr/local/lib64]
-    arg [-L/lib64] ==> dir [/lib64]
-    arg [-L/usr/lib64] ==> dir [/usr/lib64]
-    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
-    arg [-L/lib] ==> dir [/lib]
-    arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [-L/usr/x86_64-linux-gnu/lib64] ==> dir [/usr/x86_64-linux-gnu/lib64]
-    arg [-L/usr/x86_64-linux-gnu/lib] ==> dir [/usr/x86_64-linux-gnu/lib]
-    arg [CMakeFiles/cmTC_367f8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_5d341.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -139,29 +136,18 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtend.o] ==> ignore
-    arg [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtn.o] ==> ignore
-  remove lib [gcc]
-  remove lib [gcc_s]
-  remove lib [gcc]
-  remove lib [gcc_s]
-  collapse library dir [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0] ==> [/opt/conda/lib/gcc/x86_64-pc-linux-gnu/7.2.0]
-  collapse library dir [/opt/conda/bin/../lib/gcc] ==> [/opt/conda/lib/gcc]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../..] ==> [/opt/conda/lib]
-  collapse library dir [/usr/local/lib/x86_64-linux-gnu] ==> [/usr/local/lib/x86_64-linux-gnu]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
   collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/local/lib64] ==> [/usr/local/lib64]
-  collapse library dir [/lib64] ==> [/lib64]
-  collapse library dir [/usr/lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
-  collapse library dir [/lib] ==> [/lib]
-  collapse library dir [/usr/lib] ==> [/usr/lib]
-  collapse library dir [/usr/x86_64-linux-gnu/lib64] ==> [/usr/x86_64-linux-gnu/lib64]
-  collapse library dir [/usr/x86_64-linux-gnu/lib] ==> [/usr/x86_64-linux-gnu/lib]
-  implicit libs: [c]
-  implicit dirs: [/opt/conda/lib/gcc/x86_64-pc-linux-gnu/7.2.0;/opt/conda/lib/gcc;/lib64;/opt/conda/lib;/usr/local/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/local/lib64;/usr/lib64;/usr/local/lib;/lib;/usr/lib;/usr/x86_64-linux-gnu/lib64;/usr/x86_64-linux-gnu/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
@@ -170,15 +156,15 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a4b9d/fast"
+Run Build Command:"/usr/bin/make" "cmTC_b9962/fast"
 make[1]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_a4b9d.dir/build.make CMakeFiles/cmTC_a4b9d.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_b9962.dir/build.make CMakeFiles/cmTC_b9962.dir/build
 make[2]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a4b9d.dir/feature_tests.c.o
-/opt/conda/bin/cc    -std=c11 -o CMakeFiles/cmTC_a4b9d.dir/feature_tests.c.o   -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a4b9d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4b9d.dir/link.txt --verbose=1
-/opt/conda/bin/cc       CMakeFiles/cmTC_a4b9d.dir/feature_tests.c.o  -o cmTC_a4b9d -rdynamic 
+Building C object CMakeFiles/cmTC_b9962.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b9962.dir/feature_tests.c.o   -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b9962
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9962.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b9962.dir/feature_tests.c.o  -o cmTC_b9962 
 make[2]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 
@@ -192,15 +178,15 @@ make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFile
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f0544/fast"
+Run Build Command:"/usr/bin/make" "cmTC_e95de/fast"
 make[1]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_f0544.dir/build.make CMakeFiles/cmTC_f0544.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_e95de.dir/build.make CMakeFiles/cmTC_e95de.dir/build
 make[2]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f0544.dir/feature_tests.c.o
-/opt/conda/bin/cc    -std=c99 -o CMakeFiles/cmTC_f0544.dir/feature_tests.c.o   -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f0544
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0544.dir/link.txt --verbose=1
-/opt/conda/bin/cc       CMakeFiles/cmTC_f0544.dir/feature_tests.c.o  -o cmTC_f0544 -rdynamic 
+Building C object CMakeFiles/cmTC_e95de.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_e95de.dir/feature_tests.c.o   -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e95de
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e95de.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e95de.dir/feature_tests.c.o  -o cmTC_e95de 
 make[2]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 
@@ -214,15 +200,15 @@ make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFile
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_42558/fast"
+Run Build Command:"/usr/bin/make" "cmTC_7b4be/fast"
 make[1]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_42558.dir/build.make CMakeFiles/cmTC_42558.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_7b4be.dir/build.make CMakeFiles/cmTC_7b4be.dir/build
 make[2]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_42558.dir/feature_tests.c.o
-/opt/conda/bin/cc    -std=c90 -o CMakeFiles/cmTC_42558.dir/feature_tests.c.o   -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_42558
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42558.dir/link.txt --verbose=1
-/opt/conda/bin/cc       CMakeFiles/cmTC_42558.dir/feature_tests.c.o  -o cmTC_42558 -rdynamic 
+Building C object CMakeFiles/cmTC_7b4be.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_7b4be.dir/feature_tests.c.o   -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7b4be
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b4be.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7b4be.dir/feature_tests.c.o  -o cmTC_7b4be 
 make[2]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 
@@ -234,15 +220,15 @@ make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFile
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_608a4/fast"
+Run Build Command:"/usr/bin/make" "cmTC_bdf5f/fast"
 make[1]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_608a4.dir/build.make CMakeFiles/cmTC_608a4.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_bdf5f.dir/build.make CMakeFiles/cmTC_bdf5f.dir/build
 make[2]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_608a4.dir/testCXXCompiler.cxx.o
-/opt/conda/bin/c++      -o CMakeFiles/cmTC_608a4.dir/testCXXCompiler.cxx.o -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_608a4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_608a4.dir/link.txt --verbose=1
-/opt/conda/bin/c++        CMakeFiles/cmTC_608a4.dir/testCXXCompiler.cxx.o  -o cmTC_608a4 -rdynamic 
+Building CXX object CMakeFiles/cmTC_bdf5f.dir/testCXXCompiler.cxx.o
+/usr/bin/g++-7    -std=c++17    -o CMakeFiles/cmTC_bdf5f.dir/testCXXCompiler.cxx.o -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_bdf5f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdf5f.dir/link.txt --verbose=1
+/usr/bin/g++-7  -std=c++17     -rdynamic CMakeFiles/cmTC_bdf5f.dir/testCXXCompiler.cxx.o  -o cmTC_bdf5f 
 make[2]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 
@@ -250,92 +236,94 @@ make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFile
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_77171/fast"
+Run Build Command:"/usr/bin/make" "cmTC_f42f8/fast"
 make[1]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_77171.dir/build.make CMakeFiles/cmTC_77171.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_f42f8.dir/build.make CMakeFiles/cmTC_f42f8.dir/build
 make[2]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_77171.dir/CMakeCXXCompilerABI.cpp.o
-/opt/conda/bin/c++      -o CMakeFiles/cmTC_77171.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_77171
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77171.dir/link.txt --verbose=1
-/opt/conda/bin/c++       -v CMakeFiles/cmTC_77171.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_77171 -rdynamic  
-Reading specs from /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/specs
-COLLECT_GCC=/opt/conda/bin/c++
-COLLECT_LTO_WRAPPER=/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/lto-wrapper
-Target: x86_64-pc-linux-gnu
-Configured with: ./configure --prefix=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/gcc --with-gxx-include-dir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/gcc/include/c++ --bindir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin --datarootdir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/share --libdir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib --with-gmp=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-mpfr=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-mpc=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-isl=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-cloog=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --enable-checking=release --with-tune=generic --disable-multilib
+Building CXX object CMakeFiles/cmTC_f42f8.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++-7    -std=c++17    -o CMakeFiles/cmTC_f42f8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f42f8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f42f8.dir/link.txt --verbose=1
+/usr/bin/g++-7  -std=c++17    -v -rdynamic CMakeFiles/cmTC_f42f8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f42f8 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++-7
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~16.04~ppa1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.2.0 (GCC) 
-COMPILER_PATH=/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/:/opt/conda/bin/../gcc/libexec/gcc/
-LIBRARY_PATH=/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/:/opt/conda/bin/../lib/gcc/:/lib/../lib64/:/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77171' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/collect2 -plugin /opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDCNflW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_77171 /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crt1.o /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crti.o /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbegin.o -L/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/opt/conda/bin/../lib/gcc -L/lib/../lib64 -L/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -L/usr/local/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib64 -L/lib64 -L/usr/lib64 -L/usr/local/lib -L/lib -L/usr/lib -L/usr/x86_64-linux-gnu/lib64 -L/usr/x86_64-linux-gnu/lib CMakeFiles/cmTC_77171.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtend.o /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77171' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~16.04~ppa1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-std=c++1z' '-v' '-rdynamic' '-o' 'cmTC_f42f8' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8v7H9a.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f42f8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f42f8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-std=c++1z' '-v' '-rdynamic' '-o' 'cmTC_f42f8' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[2]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_77171/fast"]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f42f8/fast"]
   ignore line: [make[1]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_77171.dir/build.make CMakeFiles/cmTC_77171.dir/build]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f42f8.dir/build.make CMakeFiles/cmTC_f42f8.dir/build]
   ignore line: [make[2]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_77171.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/opt/conda/bin/c++      -o CMakeFiles/cmTC_77171.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_77171]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77171.dir/link.txt --verbose=1]
-  ignore line: [/opt/conda/bin/c++       -v CMakeFiles/cmTC_77171.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_77171 -rdynamic  ]
-  ignore line: [Reading specs from /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/specs]
-  ignore line: [COLLECT_GCC=/opt/conda/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/lto-wrapper]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Configured with: ./configure --prefix=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/gcc --with-gxx-include-dir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/gcc/include/c++ --bindir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin --datarootdir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/share --libdir=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib --with-gmp=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-mpfr=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-mpc=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-isl=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --with-cloog=/feedstock_root/build_artefacts/gcc-7_1526595830724/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --enable-checking=release --with-tune=generic --disable-multilib]
+  ignore line: [Building CXX object CMakeFiles/cmTC_f42f8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++-7    -std=c++17    -o CMakeFiles/cmTC_f42f8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f42f8]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f42f8.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++-7  -std=c++17    -v -rdynamic CMakeFiles/cmTC_f42f8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f42f8 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++-7]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~16.04~ppa1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.2.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/:/opt/conda/bin/../gcc/libexec/gcc/]
-  ignore line: [LIBRARY_PATH=/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/:/opt/conda/bin/../lib/gcc/:/lib/../lib64/:/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77171' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/collect2 -plugin /opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDCNflW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_77171 /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crt1.o /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crti.o /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbegin.o -L/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/opt/conda/bin/../lib/gcc -L/lib/../lib64 -L/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -L/usr/local/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib64 -L/lib64 -L/usr/lib64 -L/usr/local/lib -L/lib -L/usr/lib -L/usr/x86_64-linux-gnu/lib64 -L/usr/x86_64-linux-gnu/lib CMakeFiles/cmTC_77171.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtend.o /opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtn.o]
-    arg [/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/collect2] ==> ignore
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~16.04~ppa1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-std=c++1z' '-v' '-rdynamic' '-o' 'cmTC_f42f8' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8v7H9a.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f42f8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f42f8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/opt/conda/bin/../gcc/libexec/gcc/x86_64-pc-linux-gnu/7.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccDCNflW.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8v7H9a.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_77171] ==> ignore
-    arg [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crt1.o] ==> ignore
-    arg [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crti.o] ==> ignore
-    arg [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbegin.o] ==> ignore
-    arg [-L/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0] ==> dir [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0]
-    arg [-L/opt/conda/bin/../lib/gcc] ==> dir [/opt/conda/bin/../lib/gcc]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../..] ==> dir [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../..]
-    arg [-L/usr/local/lib/x86_64-linux-gnu] ==> dir [/usr/local/lib/x86_64-linux-gnu]
+    arg [cmTC_f42f8] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
     arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/local/lib64] ==> dir [/usr/local/lib64]
-    arg [-L/lib64] ==> dir [/lib64]
-    arg [-L/usr/lib64] ==> dir [/usr/lib64]
-    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
-    arg [-L/lib] ==> dir [/lib]
-    arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [-L/usr/x86_64-linux-gnu/lib64] ==> dir [/usr/x86_64-linux-gnu/lib64]
-    arg [-L/usr/x86_64-linux-gnu/lib] ==> dir [/usr/x86_64-linux-gnu/lib]
-    arg [CMakeFiles/cmTC_77171.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_f42f8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -343,46 +331,110 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtend.o] ==> ignore
-    arg [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtn.o] ==> ignore
-  remove lib [gcc_s]
-  remove lib [gcc]
-  remove lib [gcc_s]
-  remove lib [gcc]
-  collapse library dir [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0] ==> [/opt/conda/lib/gcc/x86_64-pc-linux-gnu/7.2.0]
-  collapse library dir [/opt/conda/bin/../lib/gcc] ==> [/opt/conda/lib/gcc]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/opt/conda/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../..] ==> [/opt/conda/lib]
-  collapse library dir [/usr/local/lib/x86_64-linux-gnu] ==> [/usr/local/lib/x86_64-linux-gnu]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
   collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/local/lib64] ==> [/usr/local/lib64]
-  collapse library dir [/lib64] ==> [/lib64]
-  collapse library dir [/usr/lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
-  collapse library dir [/lib] ==> [/lib]
-  collapse library dir [/usr/lib] ==> [/usr/lib]
-  collapse library dir [/usr/x86_64-linux-gnu/lib64] ==> [/usr/x86_64-linux-gnu/lib64]
-  collapse library dir [/usr/x86_64-linux-gnu/lib] ==> [/usr/x86_64-linux-gnu/lib]
-  implicit libs: [stdc++;m;c]
-  implicit dirs: [/opt/conda/lib/gcc/x86_64-pc-linux-gnu/7.2.0;/opt/conda/lib/gcc;/lib64;/opt/conda/lib;/usr/local/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/local/lib64;/usr/lib64;/usr/local/lib;/lib;/usr/lib;/usr/x86_64-linux-gnu/lib64;/usr/x86_64-linux-gnu/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c89a/fast"
+make[1]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3c89a.dir/build.make CMakeFiles/cmTC_3c89a.dir/build
+make[2]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c89a.dir/feature_tests.cxx.o
+/usr/bin/g++-7    -std=c++17    -std=c++1z -o CMakeFiles/cmTC_3c89a.dir/feature_tests.cxx.o -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3c89a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c89a.dir/link.txt --verbose=1
+/usr/bin/g++-7  -std=c++17     -rdynamic CMakeFiles/cmTC_3c89a.dir/feature_tests.cxx.o  -o cmTC_3c89a 
+make[2]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_54a0a/fast"
+Run Build Command:"/usr/bin/make" "cmTC_d37f6/fast"
 make[1]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_54a0a.dir/build.make CMakeFiles/cmTC_54a0a.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_d37f6.dir/build.make CMakeFiles/cmTC_d37f6.dir/build
 make[2]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_54a0a.dir/feature_tests.cxx.o
-/opt/conda/bin/c++     -std=c++14 -o CMakeFiles/cmTC_54a0a.dir/feature_tests.cxx.o -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_54a0a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54a0a.dir/link.txt --verbose=1
-/opt/conda/bin/c++        CMakeFiles/cmTC_54a0a.dir/feature_tests.cxx.o  -o cmTC_54a0a -rdynamic 
+Building CXX object CMakeFiles/cmTC_d37f6.dir/feature_tests.cxx.o
+/usr/bin/g++-7    -std=c++17    -std=c++14 -o CMakeFiles/cmTC_d37f6.dir/feature_tests.cxx.o -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d37f6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d37f6.dir/link.txt --verbose=1
+/usr/bin/g++-7  -std=c++17     -rdynamic CMakeFiles/cmTC_d37f6.dir/feature_tests.cxx.o  -o cmTC_d37f6 
 make[2]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 
@@ -449,15 +501,15 @@ make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFile
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ba750/fast"
+Run Build Command:"/usr/bin/make" "cmTC_aeb90/fast"
 make[1]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_ba750.dir/build.make CMakeFiles/cmTC_ba750.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_aeb90.dir/build.make CMakeFiles/cmTC_aeb90.dir/build
 make[2]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ba750.dir/feature_tests.cxx.o
-/opt/conda/bin/c++     -std=c++11 -o CMakeFiles/cmTC_ba750.dir/feature_tests.cxx.o -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ba750
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba750.dir/link.txt --verbose=1
-/opt/conda/bin/c++        CMakeFiles/cmTC_ba750.dir/feature_tests.cxx.o  -o cmTC_ba750 -rdynamic 
+Building CXX object CMakeFiles/cmTC_aeb90.dir/feature_tests.cxx.o
+/usr/bin/g++-7    -std=c++17    -std=c++11 -o CMakeFiles/cmTC_aeb90.dir/feature_tests.cxx.o -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_aeb90
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeb90.dir/link.txt --verbose=1
+/usr/bin/g++-7  -std=c++17     -rdynamic CMakeFiles/cmTC_aeb90.dir/feature_tests.cxx.o  -o cmTC_aeb90 
 make[2]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 
@@ -524,15 +576,15 @@ make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFile
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3c2eb/fast"
+Run Build Command:"/usr/bin/make" "cmTC_0583a/fast"
 make[1]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_3c2eb.dir/build.make CMakeFiles/cmTC_3c2eb.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_0583a.dir/build.make CMakeFiles/cmTC_0583a.dir/build
 make[2]: Entering directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3c2eb.dir/feature_tests.cxx.o
-/opt/conda/bin/c++     -std=c++98 -o CMakeFiles/cmTC_3c2eb.dir/feature_tests.cxx.o -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3c2eb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c2eb.dir/link.txt --verbose=1
-/opt/conda/bin/c++        CMakeFiles/cmTC_3c2eb.dir/feature_tests.cxx.o  -o cmTC_3c2eb -rdynamic 
+Building CXX object CMakeFiles/cmTC_0583a.dir/feature_tests.cxx.o
+/usr/bin/g++-7    -std=c++17    -std=c++98 -o CMakeFiles/cmTC_0583a.dir/feature_tests.cxx.o -c /home/workspace/CppND-System-Monitor/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0583a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0583a.dir/link.txt --verbose=1
+/usr/bin/g++-7  -std=c++17     -rdynamic CMakeFiles/cmTC_0583a.dir/feature_tests.cxx.o  -o cmTC_0583a 
 make[2]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 make[1]: Leaving directory '/home/workspace/CppND-System-Monitor/build/CMakeFiles/CMakeTmp'
 

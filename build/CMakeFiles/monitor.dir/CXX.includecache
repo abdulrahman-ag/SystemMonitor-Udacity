@@ -6,27 +6,25 @@
 
 #IncludeRegexTransform: 
 
-../include/linux_parser.h
-fstream
--
-regex
--
+../include/process.h
 string
 -
 
-/home/workspace/CppND-System-Monitor/src/linux_parser.cpp
-dirent.h
--
-unistd.h
--
+../include/processor.h
+
+../include/system.h
 string
 -
 vector
 -
-iostream
--
-map
--
-linux_parser.h
-/home/workspace/CppND-System-Monitor/src/linux_parser.h
+process.h
+../include/process.h
+processor.h
+../include/processor.h
+
+/home/workspace/CppND-System-Monitor/src/processor.cpp
+processor.h
+/home/workspace/CppND-System-Monitor/src/processor.h
+system.h
+/home/workspace/CppND-System-Monitor/src/system.h
 

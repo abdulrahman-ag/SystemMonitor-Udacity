@@ -106,17 +106,60 @@ long LinuxParser::UpTime() {
 }
 
 // TODO: Read and return the number of jiffies for the system
-long LinuxParser::Jiffies() { return 0; }
+long LinuxParser::Jiffies() { 
+  return ActiveJiffies() + IdleJiffies();
+}
 
-// TODO: Read and return the number of active jiffies for a PID
+// TODO:  Read and return the number of active jiffies for a PID
 // REMOVE: [[maybe_unused]] once you define the function
-long LinuxParser::ActiveJiffies(int pid[[maybe_unused]]) { return 0; }
+long LinuxParser::ActiveJiffies(int pid) { 
+  string line = "";
+  long int  utime = -100, stime = -100, cutime = -100, cstime = -100;
+  string x;
+
+  std::ifstream stream(kProcDirectory + to_string(pid) + kStatFilename);
+  if (stream.is_open()) {
+    std::getline(stream, line);
+    std::istringstream linestream(line);
+    for (int i =1; i<=12 ; i++){
+      linestream >> x;
+    }
+    linestream >> utime >> stime >> cutime >> cstime;
+    
+  }
+
+  return utime + stime + cutime + cstime;
+}
 
 // TODO: Read and return the number of active jiffies for the system
-long LinuxParser::ActiveJiffies() { return 0; }
+long LinuxParser::ActiveJiffies() { 
+  vector<string> cpuUtilizationData = CpuUtilization();
+  string aggregateCPU = cpuUtilizationData[0];
+
+  long user, nice, kernal_mode_procs, irq, softirq, steal;
+  string x;
+
+  std::istringstream linestream(aggregateCPU);
+  linestream >> x >> user >> nice >> kernal_mode_procs >> x >> x >> irq >> softirq >> steal >> x >> x;
+  //linestream >> cpu >> user >> nice >> kernal_mode_procs >> idle >> iowait >> irq >> softirq >> steal >> guest >> guest_nice;
+
+  return user + nice + kernal_mode_procs + irq + softirq + steal;   
+}
 
 // TODO: Read and return the number of idle jiffies for the system
-long LinuxParser::IdleJiffies() { return 0; }
+long LinuxParser::IdleJiffies() { 
+  vector<string> cpuUtilizationData = CpuUtilization();
+  string aggregateCPU = cpuUtilizationData[0];
+
+  long idle, iowait;
+  string x;
+
+  std::istringstream linestream(aggregateCPU);
+  linestream >> x >> x >> x >> x >> idle >> iowait >> x >> x >> x >> x >> x;
+  //linestream >> cpu >> user >> nice >> kernal_mode_procs >> idle >> iowait >> irq >> softirq >> steal >> guest >> guest_nice;
+
+  return idle + iowait; 
+}
 
 // TODO: Read and return CPU utilization
 vector<string> LinuxParser::CpuUtilization() {

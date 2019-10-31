@@ -32,7 +32,7 @@ Processor& System::Cpu() {
 vector<Process>& System::Processes() { 
     vector<int> pids = LinuxParser::Pids();
 
-    for(int i=0 ; i<pids.size() ; i++){
+    for(unsigned int i=0 ; i<pids.size() ; i++){
         processes_.push_back(Process(pids[i]));
     }
     

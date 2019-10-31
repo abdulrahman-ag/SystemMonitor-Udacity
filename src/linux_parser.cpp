@@ -83,7 +83,7 @@ float LinuxParser::MemoryUtilization() {
       line.replace(line.end()-2,line.end(), " ");
       std::istringstream linestream(line);
       linestream >> key >> value;
-      data.insert(std::pair(key, value));
+      data.insert(std::pair<string,float>(key, value));
     }
   }
   

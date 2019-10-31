@@ -258,7 +258,7 @@ string LinuxParser::Ram(int pid) {
 
 // TODO: Read and return the user ID associated with a process
 // REMOVE: [[maybe_unused]] once you define the function
-string LinuxParser::Uid(int pid[[maybe_unused]]) {
+string LinuxParser::Uid(int pid) {
   string uid = "[empty]", line = "", key;
 
   std::ifstream stream(kProcDirectory + to_string(pid) + kStatusFilename);
@@ -303,7 +303,7 @@ string LinuxParser::User(int pid) {
 // REMOVE: [[maybe_unused]] once you define the function
 long LinuxParser::UpTime(int pid) {
   string line = "";
-  long int upTime ;
+  string upTime ;
 
   std::ifstream stream(kProcDirectory + to_string(pid) + kStatFilename);
   if (stream.is_open()) {
@@ -312,8 +312,7 @@ long LinuxParser::UpTime(int pid) {
     for (int i =1; i<=22 ; i++){
       linestream >> upTime;
     }
-    upTime /= sysconf(_SC_CLK_TCK);
   }
 
-  return upTime;
+  return std::stoi(upTime);
 }

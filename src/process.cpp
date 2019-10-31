@@ -16,8 +16,8 @@ int Process::Pid() { return pid; }
 
 // TODO: Return this process's CPU utilization
 float Process::CpuUtilization() { 
-    long total_time = LinuxParser::ActiveJiffies(pid);
     long up_time = LinuxParser::UpTime();
+    long total_time = LinuxParser::ActiveJiffies(pid);
     long start_time = LinuxParser::UpTime(pid);
 
     float seconds = up_time - (start_time *1.0 / sysconf(_SC_CLK_TCK));
